@@ -10,3 +10,21 @@ DevOps can incorporate security scanning into continuous delivery in a way that 
 
 # Experiment Design
 Build an XCCDF (checklist) for some portion of 800-53 guidance applied to NGINX.
+
+
+# Related Readings, Projects
+[DevOpsAudit](http://bit.ly/DevOpsAudit) - Crowd source effort to assemble "authoritative guidance of how management and auditors should conduct audits where DevOps practices are in place"
+
+[Automate Compliance with BDD Tools](http://www.conjur.net/blog/2014/06/30/automate-compliance-with-bdd-tools.html) - A blog post musing on incorporating a security control test from policy into a cucumber test
+
+[GovReady](https://github.com/GovReady/govready) - Toolkit for getting open source apps ready for secure, approved government use (Friendly wrapper around OpenScap)
+
+[EasySCAP](https://github.com/GovReady/easyscap) - A simple (but equivalent) format for writing SCAP tests by GovReady. Also [EasySCAP Output Demo](https://github.com/GovReady/easyscap-output-demo) for YAML version of SCAP of SCAP-Security-Guide
+
+[OpenSCAP](https://github.com/GovReady/easyscap-output-demo) - Open Source NIST Certified SCAP 1.2 toolkit (on GitHub at https://github.com/OpenSCAP/openscap)
+
+[SSG SCAP Security Guide](https://fedorahosted.org/scap-security-guide/) - security guidance, baselines, and associated validation mechanism; currently supporting SCAP for RHEL6, JBOSS
+
+[Aqueduct](https://fedorahosted.org/aqueduct/) - Attempt to gather together automated changes to RHEL to meet government and Defense Department security compliance; uses bash and puppet.
+
+[NIST Checklist Program](http://checklists.nist.gov) - Official NIST program to promote hardened configuration checklists for software
