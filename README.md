@@ -11,6 +11,12 @@ DevOps can incorporate security scanning into continuous delivery in a way that 
 # Experiment Design
 Build an XCCDF (checklist) for some portion of 800-53 guidance applied to NGINX.
 
+# Included Virtual Machines
+The `vm` directory includes virtual machines for learning and testing GovReady. 
+
+`vm/basic` provides for a multiple virtual machine environment for testing GovReady. 
+
+`vm/basic/vbkick-templates` provides vbkick virtual machine configuration files for building VirtualBox VM's from source ISO and kick start files.
 
 # Related Readings, Projects
 [DevOpsAudit](http://bit.ly/DevOpsAudit) - Crowd source effort to assemble "authoritative guidance of how management and auditors should conduct audits where DevOps practices are in place"
